@@ -1,16 +1,15 @@
-import './App.css';
-import Header from  './Header';
-import Name from './Name';
 
+import React from 'react';
+import './App.css'; 
+import Template from "./template";
+ 
 function App() {
   return (
-    <div className="App 1">
-       <h1>Hey hi everyone</h1>
-       <Header />
-       <Name/>
+    <div className="App">
+        <Template />
+         
        </div>
-        
-  )
+    ) 
 }
 
 export default App;
